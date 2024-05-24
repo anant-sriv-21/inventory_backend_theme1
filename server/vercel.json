@@ -7,9 +7,9 @@
     }
   ],
   "routes": [
-    { "src": "/auth/(.*)", "dest": "./src/routes/auth.route.js" },
-    { "src": "/user/(.*)", "dest": "./src/routes/user.route.js" },
-    { "src": "/preference/(.*)", "dest": "./src/routes/preference.route.js" },
+    { "src": "/auth/(.*)", "dest": "/src/routes/auth.route.js" },
+    { "src": "/user/(.*)", "dest": "/src/routes/user.route.js" },
+    { "src": "/preference/(.*)", "dest": "/src/routes/preference.route.js" },
     { "src": "/(.*)", "dest": "/index.js" }
   ]
 }
